@@ -17,7 +17,7 @@ from vinted import VintedClient
 # Wejdz na vinted.pl, ustaw filtry (marka, rozmiar, cena, stan) tak jak
 # normalnie szukajac, skopiuj caly link. Mozesz dodac ich dowolnie wiele.
 SEARCH_URLS = [
-    "https://www.vinted.pl/catalog?search_text=nike+air+max",
+    "https://www.vinted.pl/catalog?brand_ids[]=219304&brand_ids[]=1908821&brand_ids[]=7026375&brand_ids[]=7026376&brand_ids[]=7489663&page=1&time=1788461886&order=newest_first",
 ]
 
 ITEMS_PER_SEARCH = 20  # ile najnowszych ofert sprawdzac przy kazdym uruchomieniu
