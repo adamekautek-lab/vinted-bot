@@ -50,7 +50,7 @@ def format_message(item) -> str:
     extra = " \u00b7 ".join(x for x in [item.brand_title, item.size_title] if x)
     if extra:
         lines.append(f"\U0001F3F7\uFE0F {escape_html(extra)}")
-    lines.append(f"\U0001F4B6 {item.price:.2f} {item.currency}")
+    lines.append(f"\U0001F4B6 {item.price} {item.currency}")
     lines.append(f"\U0001F517 {item.url}")
     return "\n".join(lines)
 
